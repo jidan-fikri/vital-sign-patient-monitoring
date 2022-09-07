@@ -20,4 +20,7 @@ Untuk mengirim ataupun membaca data serial bisa mengikuti set instruksi pada dok
 - Kirim serial berikut ke HMI STONE untuk menampilakan tampilan grafik
   - ST<{"cmd_code":"set_value","type":"line_series","widget":"line_series_ecg1","mode":"push","value":'+str(lead1)+'}>ET \
     Contoh diatas untuk menampilkan grafik ECG untuk lead channel 1. Pada bagian widget bisa diubah sesuai blok yang ingin diisi data (misal contoh lain: line_series_spo2), dan bagian value bisa diisi variabel nilai/data yang ingin dikirimkan ke HMI STONE untuk ditampilkan.
-  - 
+  - ST<{"cmd_code":"set_value","type":"image_value","widget":"hr_value","value":'+str(EKGnum_int)+'}>ET \
+    Contoh diatas untuk menampilkan grafik numerik untuk data heart rate. Pada bagian widget bisa diubah sesuai blok yang ingin diisi data (misal contoh lain: spo2_value), dan bagian value bisa diisi variabel nilai/data yang ingin dikirimkan ke HMI STONE untuk ditampilkan.
+
+Untuk instruksi lengkap dapat dilihat [disini](https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/71c8a120824c5e0fd543c57070f030e95487ef7c/stone-design/%23Instruction%20Sets%20V1.5RC-20220615.pdf)
