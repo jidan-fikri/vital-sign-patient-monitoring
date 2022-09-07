@@ -2,7 +2,7 @@
 
 | Halaman Pertama | Halaman Kedua |
 | --- | --- |
-
+|<img src = "https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/master/stone-design/image/first_page.png" width="1000"/>|<img src = "https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/master/stone-design/image/second_page.png" width="1000"/>|
 
 ---
 Beberapa anotasi tiap - tiap blok pada desain tampilan vital sign monitor dengan menggunakan tampilan HMI Stone:
@@ -19,6 +19,9 @@ Beberapa anotasi tiap - tiap blok pada desain tampilan vital sign monitor dengan
 1. line_series_spo2 = nilai data grafik SpO2
 2. line_series_rr = nilai data grafik respiratory rate
 3. line_series_ecg(*ecg lead channel*) = nilai data grafik ecg sesuai lead (ex: line_series_ecg1 = untuk grafik lead 1)
+
+- Tombol/Button
+1. nib_start = tombol untuk memulai alat nibp/pengukuran tekanan darah
 
 ---
 Untuk mengirim ataupun membaca data serial bisa mengikuti set instruksi pada dokumentasi STONE. Sebagai contoh:
