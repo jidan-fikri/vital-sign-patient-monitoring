@@ -16,4 +16,8 @@ Beberapa anotasi tiap - tiap blok pada desain tampilan vital sign monitor dengan
 3. line_series_ecg(*ecg lead channel*) = nilai data grafik ecg sesuai lead (ex: line_series_ecg1 = untuk grafik lead 1)
 
 ---
-Untuk mengirim ataupun membaca data serial bisa mengikuti set instruksi pada dokumentasi STONE
+Untuk mengirim ataupun membaca data serial bisa mengikuti set instruksi pada dokumentasi STONE. Sebagai contoh:
+- Kirim serial berikut ke HMI STONE untuk menampilakan tampilan grafik
+  - ST<{"cmd_code":"set_value","type":"line_series","widget":"line_series_ecg1","mode":"push","value":'+str(lead1)+'}>ET \
+    Contoh diatas untuk menampilkan grafik ECG untuk lead channel 1. Pada bagian widget bisa diubah sesuai blok yang ingin diisi data (misal contoh lain: line_series_spo2), dan bagian value bisa diisi variabel nilai/data yang ingin dikirimkan ke HMI STONE untuk ditampilkan.
+  - 
