@@ -1,5 +1,10 @@
 ## Instruction Set
 
+| Halaman Pertama | Halaman Kedua |
+| --- | --- |
+
+
+---
 Beberapa anotasi tiap - tiap blok pada desain tampilan vital sign monitor dengan menggunakan tampilan HMI Stone:
 - Data Numerik
 1. spo2_value = nilai data numerik SpO2 (persen)
