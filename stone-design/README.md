@@ -1,8 +1,8 @@
 ## Instruction Set
 
-| Halaman Pertama | Halaman Kedua |
-| --- | --- |
-|<img src = "https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/master/stone-design/image/first_page.png" width="1000"/>|<img src = "https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/master/stone-design/image/second_page.png" width="1000"/>|
+| Halaman Home | Halaman Pertama | Halaman Kedua |
+| --- | --- | --- |
+|<img src = "https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/master/stone-design/image/home_page.png" width="1000"/>|<img src = "https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/master/stone-design/image/first_page.png" width="1000"/>|<img src = "https://github.com/jidan-fikri/vital-sign-patient-monitoring/blob/master/stone-design/image/second_page.png" width="1000"/>|
 
 ---
 Beberapa anotasi tiap - tiap blok pada desain tampilan vital sign monitor dengan menggunakan tampilan HMI Stone:
